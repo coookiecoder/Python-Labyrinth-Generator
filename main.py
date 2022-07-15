@@ -22,4 +22,4 @@ for line in range(size):
     for colum in range(size):
         image_lab.putpixel((line, colum), tmp[line][colum])
 
-image_lab.save("test.png")
+image_lab.save("output.png")
