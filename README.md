@@ -6,3 +6,6 @@ output is output.png<br />
 you can switch between the black and white and RGB version by changing the second line of main.py :<br />
 - black and white : from lab import Labyrinth<br />
 - RGB : from lab_rgb import Labyrinth<br />
+and the nine of main.py :<br />
+- black and white : image_lab = Image.new("L", (size, size))<br />
+- RGB : image_lab = Image.new("RGB", (size, size))<br />
